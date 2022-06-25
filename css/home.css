@@ -1,0 +1,79 @@
+body{
+    background-color: #06113C;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.g2 a {
+    text-decoration: none;
+}
+
+
+button{
+    height: 4rem;
+    width: 10rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    color: #371B58;
+    animation: btfadein 2s;
+}
+
+
+@keyframes btfadein {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+.g2{
+    background-color: #EEEEEE;
+    transition: 0.3s;
+}
+
+.g2:hover{
+    background-color: #8D8DAA;
+
+}
+
+.single{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.multi{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.le{
+    background-color: #92B4EC;
+    margin-top: 1rem;
+    transition: 0.3s;
+}
+
+.le:hover{
+
+    background-color: #BDE6F1;
+}
+
+@media only screen and (max-width: 700px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    button{
+        width: 5.5rem;
+        height: 3rem;
+        font-size: smaller;
+    }
+    body{
+        font-size: small;
+    }
+}
+

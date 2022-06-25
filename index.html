@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1> 🌠 🔻 Falling Ball 🔻 🌠</h1>
+    
+    <div class="single">
+        <h2> Single Player Mode! </h2>
+        <p>CONTROLS</p>
+        <p> a-left d-right </p>
+        <a href="game.html"><button class="g2">Play</button></a>
+    </div>
+
+    <div class="multi">
+        <h2>Two player mode!</h2>
+        <p>I love to play Co-op multiplayer, so I made a Co-op instead of a competitve one</p>
+        <p>CONTROLS</p>
+        <p> a-left d -right and j-left l-right </p>
+        <a href="2playgame.html"><button class="g2">Play</button></a>
+        <a href="2playgame+.html"><button class="g2">Play +</button></a>
+        <p> '+' - the platform breaks in few sec, if both are on same platform</p>
+    </div>
+    <p>Made with 💖 by Harrish</p>
+
+    <script>
+        document.querySelector('h1').addEventListener('click',function(){
+            const a1 = new Audio('sounds/next.wav');
+            a1.play();
+            setTimeout( function(){
+                alert("Thanks for playing my game 😁, press F12. Have fun! \n Conatact me : \n Gmail : harrishkumar100@gmail.com \n Github : mharrish7 \n LinkedIn : www.linkedin.com/in/harrish-m-88249b230");
+            } ,1000);
+        })
+    </script>
+
+
+</body>
+
+</html>
